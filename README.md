@@ -9,7 +9,8 @@ coffee.enchant.js
 
 enchant.js の**直後**に coffee.enchant.js をロードしてください。
 
-その後、coffee-scriptのクラスでenchant.jsのクラスを継承することができます
+その後、coffee-scriptのクラスでenchant.jsのクラスを継承することができます。
+また、既存のenchant.Class.create()も問題なく使えます。
 
 <pre>
 enchant()
@@ -22,7 +23,7 @@ class MySprite extends Sprite
 		@x += 1
 </pre>
 
-See sample code.
+詳しくは、example/ を参照してください。
 
 どうやっているの
 ----------------

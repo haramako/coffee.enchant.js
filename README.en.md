@@ -10,6 +10,7 @@ How To Use
 Load coffee.enchant.js **just** after enchant.js.
 
 Then you can inherite enchant.js classes in coffee-script class.
+You can use enchant.Class.create() too.
 
 <pre>
 enchant()
@@ -22,7 +23,7 @@ class MySprite extends Sprite
 		@x += 1
 </pre>
 
-See sample code.
+See example/ code.
 
 How It Work
 -----------
